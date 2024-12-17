@@ -1,0 +1,54 @@
+body {
+  background-color: #d1fae5;
+}
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #0f766e;
+}
+
+.lyrics {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #64748b;
+}
+
+/* Ensuring hr displays correctly */
+hr {
+  border: none;
+  height: 4px;
+  background-color: darkgreen;
+  margin: 20px auto; /* Ensure hr is centered and spaced properly */
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: solid black 4px;
+  border-radius: 4px;
+}
+.button-wrapper{
+  text-align: center;
+}
+button{
+  font-family: 'lato', sans-serif;
+  background-color: #006d5b;
+  color: #f8f9fa;
+  cursor: pointer;
+  display: inline-block;
+ text-align: center;
+ width: 140px;
+ height: 40px;
+ font-size: 16px;
+ border: solid black 2px;
+ border-radius: 5px;
+ font-weight: bold;
+ transition: background-color 0.23s, color 0.23s;
+}
+button:hover{
+  background-color: #f8f9fa;
+  color: #006d5b;
+  cursor: pointer;
+}
